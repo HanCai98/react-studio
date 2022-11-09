@@ -14,21 +14,21 @@
     min-width: 10rem;
 }
 
+.cart p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 .bakeryItems {
     display: flex;
     flex-flow: row wrap;
-    max-width: 50rem;
+    max-width: 65rem;
     margin-left: 1.5rem;
 }
 
 .bakeryItem {
   max-width: 25rem;
-  margin: 1rem;
-}
-
-.bakeryItem h1 {
-    font-size: 1.5rem;
-    margin: 0.25rem 0;
+  margin: 2rem;
 }
 
 .bakeryItem img {
@@ -36,9 +36,9 @@
 }
 
 .bakeryItem button {
-    background-color: rgb(38, 110, 236);
+    background-color: rgb(17, 95, 230);
     color: white;
-    border-radius: 6px;
+    border-radius: 15px;
 }
 
 .description {

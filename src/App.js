@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 style={{margin: '3rem'}}>Han's Bakery Menu</h1> {/* TODO: personalize your bakery (if you want) */}
+      <h1 style={{margin: '3.5rem'}}>Han's Bakery Menu</h1> {/* TODO: personalize your bakery (if you want) */}
 
       <div className="content">
         <div className="bakeryItems">

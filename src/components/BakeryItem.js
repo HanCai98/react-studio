@@ -5,7 +5,7 @@ function BakeryItem(props) {
             <img src={props.item.image} alt="bakery item image"></img>
             <div>
                 <div className="description">
-                    <h1>{props.item.name}</h1>
+                    <h3>{props.item.name}</h3>
                     <p>{props.item.description}</p>
                 </div>
                 <div className="price">
