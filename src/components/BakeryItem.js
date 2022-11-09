@@ -10,7 +10,7 @@ function BakeryItem(props) {
                 </div>
                 <div className="price">
                     <p>${props.item.price}</p>
-                    <button onClick={() => props.addToCart(props.index)}>Add To Cart</button>
+                    <button onClick={() => props.addToCart(props.index)}>Add</button>
                 </div>
             </div>
         </div>
