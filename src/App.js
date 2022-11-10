@@ -28,7 +28,6 @@ function App() {
 
     const total = cart.price + item.price
     setCart({items: currentCart, price: total})
-    console.log(cart.items)
   }
 
   return (
